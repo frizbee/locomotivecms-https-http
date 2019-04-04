@@ -13,6 +13,6 @@ if(hosts.indexOf(host)) {
   let form = document.querySelector('#new_locomotive_account');
   if(form) {
     let new_action = form.action.replace(/^https:\/\//i, 'http://');
-    form.aciton = new_action;
+    form.action = new_action;
   }
 }
