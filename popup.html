@@ -1,0 +1,33 @@
+<!DOCTYPE html
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../css/popup.css">
+        <script src="../js/popup.js"></script>
+    </head>
+    <body>
+        <h1 data-message='extension_name'>Bursa Settings</h1>
+
+        <hr>
+
+        <form class="setting">
+            <input type="checkbox" id="timeout" name="timeout" class="switch-input">
+            <label for="timeout" class="switch-label">
+                <span data-message='timeout'>Hold Timeout</span>
+            </label>
+        </form>
+
+        <form class="setting">
+            <input type="checkbox" id="annotations" name="annotations" class="switch-input">
+            <label for="annotations" class="switch-label">
+                <span data-message='annotations'>Annotations</span>
+            </label>
+        </form>
+
+        <button id='sampleSecond' value='0.1'>Sample Second</button>
+        <button id='15min' value='15'>15 Minutes</button>
+        <button id='30min' value='30'>30 Minutes</button>
+        <button id='cancelAlarm'>Cancel Alarm</button>
+    </body>
+  </html>
