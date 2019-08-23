@@ -7,9 +7,16 @@
         <script src="../js/popup.js"></script>
     </head>
     <body>
-        <h1 data-message='extension_name'>Bursa Settings</h1>
+        <h1 data-message='extension_name'>LocomotiveCMS Access Settings</h1>
 
         <hr>
+
+        <form class="setting">
+            <input type="checkbox" id="settings" name="settings" class="switch-input">
+            <label for="settings" class="switch-label">
+                <span data-message='settings'>Settings</span>
+            </label>
+        </form>
 
         <form class="setting">
             <input type="checkbox" id="timeout" name="timeout" class="switch-input">
@@ -18,16 +25,5 @@
             </label>
         </form>
 
-        <form class="setting">
-            <input type="checkbox" id="annotations" name="annotations" class="switch-input">
-            <label for="annotations" class="switch-label">
-                <span data-message='annotations'>Annotations</span>
-            </label>
-        </form>
-
-        <button id='sampleSecond' value='0.1'>Sample Second</button>
-        <button id='15min' value='15'>15 Minutes</button>
-        <button id='30min' value='30'>30 Minutes</button>
-        <button id='cancelAlarm'>Cancel Alarm</button>
     </body>
   </html>
