@@ -18,6 +18,6 @@ function bindCheckboxes() {
       $setting.addEventListener('change', (event) => {
         localStorage[$input.name] = $input.checked
       }, false)
-      console.log($input.checked)
+      // console.log($input.checked)
     }
 }
