@@ -3,7 +3,7 @@
 
   "name": "LocomotiveCMS https to http",
   "description": "Replace sign in url from https to http for development",
-  "version": "0.2.0",
+  "version": "0.3.0",
 
   "icons": {
     "16": "img/icon16.png",
